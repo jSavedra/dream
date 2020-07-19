@@ -27,6 +27,7 @@ public class Menu {
 		if (up)
 		{
 			up = false;
+			System.out.println("Up");
 			currentOption--;
 			if (currentOption < 0)
 			{
